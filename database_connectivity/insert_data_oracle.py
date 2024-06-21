@@ -22,3 +22,5 @@ finally:
         cursor.close()
     if con:
         con.close()
+
+
