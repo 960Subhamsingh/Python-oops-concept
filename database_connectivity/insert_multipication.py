@@ -11,7 +11,7 @@ except cx_Oracle.DatabaseError as er:
 else:
     try:
         cur = conn.cursor()
-        data = [[10007 , 'Vikram',48000.0],[10008, 'Sunil', 65000.1],[10009, 'Sameer', 75000.0]]
+        data = [[10007 , 'subham',48000.0],[10008, 'kumar', 65000.1],[10009, 'singh', 75000.0]]
         cur = conn.cursor()
         # Inserting multiple records into employee table.
         cur.executemany('insert into employee values(:1,:2,:3)', data)
