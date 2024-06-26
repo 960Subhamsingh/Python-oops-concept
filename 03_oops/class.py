@@ -31,7 +31,7 @@ class Person:
         '''repetaion of class'''
         return "<class 'person'>"
     def __str__(self) -> str:
-        return f'Person: {self.first_name} {self.last_name} {self.gender} {self.age}'
+        return f'Name: {self.first_name} {self.last_name} Gender: {self.gender} Age:{self.age}'
     def holiday(self):
         print(f"{self.first_name} says Hello programmer ")
         
@@ -40,8 +40,11 @@ class Person:
 p1 = Person("Subham" , "Kumar", 12,"M")
 p2 = Person("Kumar", "Subham", 12,"M")
 
+# Using key value pairs
+p3 = Person(first_name="Singh" , last_name="singh" , gender="M" , age=24)
+ 
 print(p1)
-
+print(p3)
 
 # Both  object(p1, p2) are different instances of the same class at different memory location
 
