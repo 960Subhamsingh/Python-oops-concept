@@ -1,0 +1,2 @@
+Files are named locations on disk to store related information. They are used to permanently store data in a non-volatile memory 
+Random Access Memory we use files for future use of the data by permanently storing them.
