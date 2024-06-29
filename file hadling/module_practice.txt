@@ -1,0 +1,6 @@
+
+ append text to a file and display the text.
+
+subham kumar singh
+
+I am MCaA Studnet
