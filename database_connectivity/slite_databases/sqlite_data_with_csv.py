@@ -1,9 +1,11 @@
+# SQLite is a software library that implements a lightweight relational database management system
+
 import sqlite3
 import pandas as pd
 
-data = pd.read_csv('D:/Project/Python_Tutorial/database_connectivity/Data/DimDate.csv')
-
 conn = sqlite3.connect('D:/Project/Python_Tutorial/database_connectivity/school.db')
+
+data = pd.read_csv('D:/Project/Python_Tutorial/database_connectivity/Data/DimDate.csv')
 
 cur = conn.cursor()
  
